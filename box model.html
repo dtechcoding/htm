@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .box {
+      width: 48%;
+      height: 150px;
+      background-color: rgb(128, 255, 0);
+      padding: 20px;
+      box-shadow: rgb(0, 0, 0) 2px 2px 5px;
+      border: 5px solid rgb(21, 21, 135);
+      margin: 30px;
+      font-style: oblique;
+      font-size: large;
+      box-sizing: border-box;
+      text-align: center;
+      position: relative;
+    }
+
+    /* Hide the original paragraph on hover */
+    .box:hover p {
+      visibility: hidden;
+    }
+
+    /* Show alternate text using ::after */
+    .box:hover::after {
+      content: "this is a box using CSS";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+    }
+    .boxx{
+        width: 48%;
+        height: 150px;
+        background-color: rgb(255, 0, 128);
+        padding: 20px;
+        box-shadow: rgb(0, 0, 0) 2px 2px 5px;
+        border: 5px solid rgb(135, 21, 21);
+        margin: 30px;
+        font-style: oblique;
+        font-size: large;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .boxx:hover{
+        background-color: rgb(255, 128, 0);
+        border: 1caps dotted rgb(21, 135, 21);
+        box-shadow: 4px 4px 20px rgb(0, 0, 0);
+    }
+
+    .boxxx:hover {
+      background-color: rgb(0, 128, 255);
+      border: 1px dashed rgb(21, 135, 21);
+      box-shadow: 4px 4px 20px rgb(0, 0, 0);
+
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box">
+    <p>This is a box using HTML</p>
+  </div>
+
+  <div class="boxx">
+    <p>This is another box using HTML</p>
+  </div>
+  <div class="boxxx">
+    <p>This is a third box using HTML</p>
+  </div>
+  <div class="boxxxx">
+    <p>This is a fourth box using HTML</p>
+  </div>
+
+</div>
+
+</body>
+</html>
