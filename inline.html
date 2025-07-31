@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>inline</title>
+<style>
+h1{
+    background-color: rgba(255, 174, 0, 0.696);
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    border-radius: 2%;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid blueviolet;
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 2px 2px 8px #888888;
+}
+p{
+    background-color:rgb(238, 255, 0);
+    color: #333;
+    font-size: 1.1em;
+    padding: 8px 16px;
+    border-left: 4px solid orange;
+    margin-bottom: 12px;
+}
+li{
+    background-color: rgba(0, 245, 245, 0.696);
+    margin: 6px 0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-style: italic;
+    transition: background 0.3s;
+}
+li:hover {
+    background-color: #b2fefa;
+}
+ol {
+    padding-left: 30px;
+    border: 1px dashed #aaa;
+    background: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+</style>
+</head>
+<body>
+<!-- css grouping selector -->
+<h1 style="letter-spacing: 2px;">This is a Heading</h1>
+<p style="font-weight: bold;">This is a paragraph demonstrating the use of a CSS grouping selector. Both the heading and this paragraph share the same background color, which is set using a grouped CSS rule.</p>
+<ol style="max-width: 600px;">
+    <li style="color: #005;">Grouping selectors allows you to apply the same styles to multiple elements.</li>
+    <li style="color: #500;">In this example, both <code>&lt;h1&gt;</code> and <code>&lt;p&gt;</code> have a yellow background.</li>
+    <li style="color: #050;">This helps keep your CSS concise and organized.</li>
+</ol>
+<p style="text-align: center; text-decoration: underline;">Try adding more elements to the selector to see the effect.</p>
+</body>
+</html>

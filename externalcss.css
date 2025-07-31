@@ -1,0 +1,13 @@
+p {
+    color: #ff0073;
+    background: #ffe0f0;
+    padding: 8px;
+    font-size: 1.1em;
+    border-left: 4px solid #d1005f;
+}
+body {
+    background-image: url('imgg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
